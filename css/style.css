@@ -2367,7 +2367,7 @@ body[style], header[style] {
 .services-item .icon span {
   width: 60px;
   height: 60px;
-  font-size: 20px;
+  font-size: 23px;
   position: relative;
   line-height: 60px;
   border-radius: 50%;
@@ -2889,13 +2889,12 @@ body[style], header[style] {
 }
 
 .skills-inner ul li:before {
-  content: "\f00c";
-  font-weight: 700;
+  content: "\2713";
+  font-weight: 900;
   vertical-align: middle;
   margin-right: 15px;
   display: inline-block;
   color: #ff4500;
-  font-family: "Font Awesome 5 Free";
 }
 
 .skills-inner .skills-item {
@@ -3413,6 +3412,7 @@ body[style], header[style] {
 }
 
 .team-card .img img {
+  height:10rem;
   border-radius: 50%;
   position: relative;
 }
